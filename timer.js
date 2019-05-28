@@ -1,6 +1,9 @@
 setImmediate(()=>{
     console.log('setImmediate')
 })
+setImmediate(()=>{
+    console.log('setImmediate1')
+})
 setTimeout(()=>{
     console.log('setTimeout')
 },0)
